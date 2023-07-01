@@ -1,0 +1,28 @@
+.main {
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+
+    .hero-section {
+        background-image: url("/hero-bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 254px 153px 10px 81px;
+        min-width: 100%;
+        height: 100%;
+
+        .main-title {
+            font-size: 85px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 130px;
+            width: fit-content;
+            margin-bottom: 77px;
+
+            .main-title-gold {
+                color: #ffce4e;
+            }
+        }
+    }
+}

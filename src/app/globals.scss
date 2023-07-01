@@ -1,0 +1,27 @@
+$base-color: #f5fbf2;
+$secondary-color: #ffce4e;
+$social-media: #d53d5c;
+$social-media-hovered: #f7d7ff;
+$body-color: #251928;
+
+html,
+body {
+    background-color: $body-color;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    color: $base-color;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
