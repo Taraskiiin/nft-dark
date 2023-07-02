@@ -2,7 +2,10 @@ import "./globals.scss";
 
 import { Work_Sans, Oxanium } from "next/font/google";
 
-export const oxanium = Oxanium({ weight: "700", subsets: ["latin"] });
+export const oxanium = Oxanium({
+    weight: ["700", "500", "600"],
+    subsets: ["latin"],
+});
 const workSans = Work_Sans({
     weight: ["400", "500", "600"],
     subsets: ["latin"],

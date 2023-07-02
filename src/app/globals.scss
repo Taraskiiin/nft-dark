@@ -13,6 +13,10 @@ body {
 
 body {
     color: $base-color;
+    background-image: url("/hero-bg.png");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 
 a {

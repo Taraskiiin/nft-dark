@@ -5,6 +5,7 @@
     padding: 38px 153px 10px 81px;
     background-color: transparent;
     position: absolute;
+    z-index: 9999;
 }
 
 .connect-wallet-button {
@@ -39,6 +40,12 @@
 
     &:active {
         opacity: 0.5;
+    }
+}
+
+@media (max-width: 1919px) {
+    .header {
+        padding: 38px 81px 10px 81px;
     }
 }
 
