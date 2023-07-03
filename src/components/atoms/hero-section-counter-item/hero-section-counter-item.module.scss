@@ -1,0 +1,39 @@
+.hero-section-counter-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > h3 {
+        font-size: 62px;
+        font-weight: 700;
+    }
+
+    & > .counter-label {
+        color: #9b9e9a;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 35px;
+    }
+
+    @media (max-width: 1919px) {
+        & > h3 {
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        & > .counter-label {
+            font-size: 22px;
+            line-height: 26px;
+        }
+    }
+
+    @media (max-width: 1279px) {
+        & > h3 {
+            font-size: 36px;
+        }
+
+        & > .counter-label {
+            font-size: 16px;
+        }
+    }
+}
