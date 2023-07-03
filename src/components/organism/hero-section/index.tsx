@@ -1,13 +1,12 @@
 import React from "react";
 import cn from "classnames";
-import { oxanium } from "@/app/layout";
+import { oxaniumClass } from "@/app/font-class-names";
 import HeroSectionCounterItem from "@/components/atoms/hero-section-counter-item";
-
-import styles from "./hero-section.module.scss";
 import HeroBlur from "@/components/atoms/hero-blur";
 
+import styles from "./hero-section.module.scss";
+
 const mainTitleClass = styles["main-title"];
-const oxaniumClass = oxanium.className;
 const heroButtonClass = styles["hero-button"];
 const exploreButtonClass = styles["explore-button"];
 const createButtonClass = styles["create-button"];

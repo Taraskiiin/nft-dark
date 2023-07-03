@@ -1,10 +1,8 @@
 import React from "react";
 import cn from "classnames";
+import { oxaniumClass } from "@/app/font-class-names";
 
-import { oxanium } from "../../../app/layout";
 import styles from "./hero-section-counter-item.module.scss";
-
-const oxaniumClass = oxanium.className;
 
 export default function HeroSectionCounterItem({
     count,

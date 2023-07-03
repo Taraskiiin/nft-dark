@@ -1,4 +1,3 @@
-import cn from "classnames";
 import Image from "next/image";
 import Header from "@/components/organism/header";
 import HeroSection from "@/components/organism/hero-section";
