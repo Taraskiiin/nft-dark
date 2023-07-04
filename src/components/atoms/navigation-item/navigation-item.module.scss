@@ -1,3 +1,5 @@
+@import "@/app/variables";
+
 .link {
     font-size: 18px;
     font-weight: 500;
@@ -13,14 +15,14 @@
         transform: translateX(0);
         width: calc(100% + 6px);
         height: 2px;
-        background-color: #ffce4e;
+        background-color: $secondary-color;
         transform: scaleX(0);
         transition: transform 0.3s ease-in-out;
         transform-origin: bottom right;
     }
 
     &:hover {
-        color: #ffce4e;
+        color: $secondary-color;
         transition: 0.2s;
 
         &::after {

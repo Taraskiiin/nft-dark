@@ -1,3 +1,5 @@
+@import "@/app/variables";
+
 .hero-section {
     padding: 254px 153px 10px 81px;
     min-width: 100%;
@@ -17,7 +19,7 @@
             margin-bottom: 77px;
 
             .main-title-gold {
-                color: #ffce4e;
+                color: $secondary-color;
             }
         }
         .buttons-block {
@@ -44,14 +46,14 @@
             }
 
             .explore-button {
-                color: #000;
-                background: #ffce4e;
+                color: $pure-black;
+                background: $secondary-color;
                 border: none;
             }
 
             .create-button {
-                color: #fff;
-                border: 1px solid #ffce4e;
+                color: $pure-white;
+                border: 1px solid $secondary-color;
                 background: rgba(233, 215, 167, 0.1);
             }
         }
@@ -105,7 +107,7 @@
                     }
 
                     & > h3 {
-                        color: #fff;
+                        color: $pure-white;
                         font-size: 32px;
                         font-weight: 700;
                     }
@@ -115,7 +117,7 @@
         .card-footer {
             height: 143px;
             width: 100%;
-            background: #fff;
+            background: $pure-white;
             padding: 35px 40px 35px 60px;
             display: flex;
             align-items: center;
@@ -143,11 +145,11 @@
 
             .start-bid-btn {
                 padding: 23px 45px;
-                background: #ffce4e;
+                background: $secondary-color;
                 border: none;
                 cursor: pointer;
                 text-transform: capitalize;
-                color: #000;
+                color: $pure-black;
                 font-size: 24px;
                 font-weight: 700;
 

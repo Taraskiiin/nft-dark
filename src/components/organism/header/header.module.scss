@@ -1,3 +1,5 @@
+@import "@/app/variables";
+
 .header {
     display: flex;
     align-items: center;
@@ -9,9 +11,9 @@
 }
 
 .connect-wallet-button {
-    border: 1px solid #ffce4e;
+    border: 1px solid $secondary-color;
     background: rgba(233, 215, 167, 0.1);
-    color: #ffce4e;
+    color: $secondary-color;
     font-size: 18px;
     font-weight: 600;
     padding: 21px 30px;
